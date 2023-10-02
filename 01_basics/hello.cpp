@@ -3,9 +3,10 @@ using namespace std;
 
 int main()
 {
-
-    cout << "Hello World!";
+    int x;
+    cin >> x;
+    cout << "Hello World!" << x;
 }
 
-// compile in terminal using g++ 01?basics/hello.cpp -o hello
+// compile in terminal using g++ 01_basics/hello.cpp -o hello
 // ./hello
